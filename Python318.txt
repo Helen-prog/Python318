@@ -1,0 +1,102 @@
+index.html
+! -> Tab
+lorem -> Tab
+align= left | center | right | justify
+
+<!-- комментарий -->
+Ctrl + /
+
+H20
+
+open in browser
+file:///D:/Python318/HTML/inform.html
+
+https://validator.w3.org/
+
+Ctrl + H
+align="
+style="text-align:
+
+style.html
+
+
+AnyDesk
+rgb(255, 0, 0)  => 0 - 255
+rgba(255, 0, 0, 1)  => 0 - 255 alpha - от 0 до 1
+#FF0000  -> 0-9A-F
+#F00
+
+list.html
+style.css
+
+
+selector.html
+
+Растровые изображения:
+*.jpg (jpeg)
+*.png 
+*.gif
+Векторные изображения:
+*.svg
+
+img.css
+file:///D:/Python318/HTML/%D0%93%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8/test2.html
+
+
+
+file:///D:/Python318/HTML/form/form.html?first-name=Olga&psw=123456&pol=on#file.php
+file:///D:/Python318/HTML/form/form.html#file.php
+
+file:///D:/Python318/HTML/form/form.html?first-name=Igor&psw=edsdfsd#file.php
+file:///D:/Python318/HTML/form/form.html?first-name=Olga&psw=fdgdfg&x=51&y=56#file.php
+
+
+file:///D:/Python318/JavaScript/test.php?name1=Igor
+file:///D:/Python318/JavaScript/index.html?name1=Hello#test.php
+file:///D:/Python318/JavaScript/index.html#test.php
+
+
+
+win + R => cmd
+
+python
+py
+
+print("Hello, World")
+
+IDLE
+
+
+import keyword
+keyword.kwlist
+
+
+1) от 0 по 9
+2)
+ворона - 1 21 31 41 51 61 
+вороны - 2, 3, 4
+ворон - 5, 6, 7, 8, 9, 0
+11
+
+git --version
+git --help
+
+git init
+- создаем репозиторий (применяется один раз для одного репозитория)
+
+git status
+- проверка в каком состоянии находится репозиторий
+
+git add -A
+		-A или --all - все файлы, которые находятся в папке и подпапках
+		main.py - только указанный документ
+		. - добавляет все файлы из текущей директории
+
+
+
+
+
+
+
+
+
