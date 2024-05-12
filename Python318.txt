@@ -158,9 +158,53 @@ git push -u origin master
 Класс 
 class НазваниеКласса:
 	свойства (поля, переменные)
+		- статическое
+		- динамические (свойства класса)
 	методы (функции)
-	
+		- статические (@staticmethod -> def method())
+		- экземпляра класса (def method(self))
+		- классов (@classmethod -> def method(cls))
 	атрибуты = свойства + методы
+	
+Модификаторы доступа:
+public - self.name
+protected - self._name
+private - self.__name
+
+родительский (бызовый, основной, суперкласс)
+	дочерний (наследник, подкласс)
+
+DRY (Don`t Repeate Yourself) - не повторяйся!
+
+#пакет
+geometry  (pip) (math)
+	# модули
+	rect.py
+	sq.py
+	trian.py
+	
+import sys
+sys.path
+
+car
+	__init__.py
+	carclass.py
+	electrocar.py
+	
+dump() - сохраняет данные в открытый файл
+dumps() - сохраняет данные в строку
+
+load() - считывает данне из открытого файла
+loads() - считывает данные из строки
+
+
+	
+	
+
+
+
+
+
 
 
 
