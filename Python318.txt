@@ -198,13 +198,47 @@ load() - считывает данне из открытого файла
 loads() - считывает данные из строки
 
 
+pip install requests
+
+csv (Comma Separated Values - переменные разделенные запятыми)
+
+data.csv
+
+Имя,Профессия,Год рождения
+Виктор,Веб-дизайнер,1995
+Игорь,Программист,1983
+
+reader => []
+DictReader => {}
+
+write => []
+DictWrite => {}
+
+
+Парсинг сайтов
+
+pip install beautifulsoup4 или bs4
+
+pip install lxml
+
+
+https://ru.wordpress.org/plugins/browse/blocks/page/1/
+https://ru.wordpress.org/plugins/browse/blocks/page/2/
+https://ru.wordpress.org/plugins/browse/blocks/page/3/
+
+https://ru.wordpress.org/plugins/browse/blocks/page/24/
+
+
+parsers.py
+
+
+MVC
+
+articles
+	project_articles.py
+	model.py
+	controller.py
+	view.py
 	
 	
-
-
-
-
-
-
-
 
