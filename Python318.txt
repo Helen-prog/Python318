@@ -500,16 +500,28 @@ models.SET_NULL - задачи останутся в базе даже при у
 models.SET_DEFAULT - задачи останутся в базе даже при удалении пользователя, но значение в поле задачи изменится на значение по умолчанию
 
 fourth
-
-
-
-
+cd fourth
 django-admin startproject devsearch
-
-
-
-
-
 python manage.py startapp projects
+python manage.py startapp users
 
+
+OneToOneField - связь один к одному
+ForeignKey - связь один ко многим
+ManyToManyField - связь многие ко многим
+
+python manage.py shell
+from projects.models import Project
+Project.objects.all()
+Project.objects.get(id=1)
+Project.objects.filter(id=1)
+Project.objects.filter(title__contains="site")
+Project.objects.exclude(title__contains="site")
+
+quit()
+
+http://127.0.0.1:8000/project/1
+
+
+signals.py
 
