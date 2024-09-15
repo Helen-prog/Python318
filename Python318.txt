@@ -525,3 +525,34 @@ http://127.0.0.1:8000/project/1
 
 signals.py
 
+utils.py
+
+pagination.html
+
+
+
+http://127.0.0.1:8000/projects/?page=1
+http://127.0.0.1:8000/projects/?page=3
+
+
+
+http://127.0.0.1:8000/projects/?search_query=web
+
+http://127.0.0.1:8000/projects/?page=2
+
+http://127.0.0.1:8000/projects/?search_query=web&page=2
+
+http://127.0.0.1:8000/projects/?search_query=web&page=2
+http://127.0.0.1:8000/projects/?search_query=web&page=3
+
+
+fifth
+cd fifth
+django-admin startproject programming_blog
+python manage.py startapp blog
+
+
+python manage.py startapp collectstatic
+
+
+
