@@ -554,5 +554,10 @@ python manage.py startapp blog
 
 python manage.py startapp collectstatic
 
+str - любая не пустая строка, исключая символ "/"
+int - любое положительное число, включая 0
+slug - латиница ASCII, символы дефиса и подчеркивания
+uuid - цифры, малые латинские символы ASCII, дефис
+path - любая не пустая строка, включает символ "/"
 
 
