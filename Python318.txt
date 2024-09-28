@@ -561,3 +561,21 @@ uuid - цифры, малые латинские символы ASCII, дефи�
 path - любая не пустая строка, включает символ "/"
 
 
+inclusion tags - включающие теги
+
+
+templatetags
+	__init__.py
+	blog_tags.py
+	
+	
+Mixin
+
+utils.py
+
+@login_required()
+
+LoginRequiredMixin
+
+
+
