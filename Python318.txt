@@ -577,5 +577,61 @@ utils.py
 
 LoginRequiredMixin
 
+git init
+git add -A
+git commit -m "blog"
+git remote add origin https://github.com/Helen-prog/blog.git
+git push -u origin master
 
+git clone https://github.com/Helen-prog/blog.git
+
+ls
+
+mkvirtualenv --python=/usr/bin/python3.10 blogvenv
+mkvirtualenv --python=/usr/bin/python3.9 blogvenv
+
+deactivate
+- для выхода из виртуального окружения
+
+workon blogvenv
+- для повторного входа
+
+pip install django
+pip install pillow
+pip install django-simple-captcha
+pip install django-ckeditor
+
+
+pwd
+/home/HelenKozovyakina/blog
+
+python manage.py collectstatic
+
+
+/home/HelenKozovyakina/blog/static
+
+django-admin startproject landing_page
+python manage.py startapp cms
+python manage.py startapp price
+python manage.py startapp crm
+python manage.py startapp telebot
+@BotFather
+
+Бот обработчик заявок с сайта
+send_bot_test_message_bot
+
+токен: 7956452190:AAGb7WQBSNLvoSSEQ7OSyqbo5VHhcbw05LI
+Your group Chat ID : -4559602179
+
+https://api.telegram.org/bot7956452190:AAGb7WQBSNLvoSSEQ7OSyqbo5VHhcbw05LI/sendMessage?chat_id=-4559602179&text=test
+
+
+@get_id_bot
+/my_id@get_id_bot
+
+pip install requests
+
+
+django-admin startproject shop
+python manage.py startapp products
 
