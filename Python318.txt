@@ -634,4 +634,14 @@ pip install requests
 
 django-admin startproject shop
 python manage.py startapp products
+python manage.py startapp users
 
+templates
+	admin
+		products
+			photo
+			product
+				change_list.html
+			productcategory
+				change_list.html
+		
