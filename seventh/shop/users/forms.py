@@ -6,6 +6,7 @@ from django import forms
 class UserProfileForm(UserChangeForm):
     username = forms.CharField(widget=forms.TextInput(attrs={'readonly': True}))
     email = forms.CharField(widget=forms.EmailInput(attrs={'readonly': True}))
+    image = forms.ImageField(widget=forms.FileInput(), required=False)
 
     class Meta:
         model = User
